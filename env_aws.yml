@@ -1,0 +1,32 @@
+name: battery_minimal_cpu
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python>=3.10
+  - pytorch::pytorch>=2.2.1
+  - pytorch::torchvision
+  - pytorch::torchaudio
+  - bokeh
+  - pyviz::holoviews>=1.15.4
+  - pyviz::hvplot
+  - pyviz::datashader
+  - einops
+  - ipykernel
+  - jupyter
+  - numpy
+  - scipy
+  - matplotlib
+  - scikit-learn
+  - pandas
+  - black
+  - pytorch-lightning
+  - pip
+  - plotly
+  - torchmetrics
+  - jupyter_bokeh
+  - tensorboard
+  - flask
+  - pytest
+  - pip:
+    - docker>=7.0.0

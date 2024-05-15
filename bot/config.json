@@ -1,0 +1,7 @@
+{
+  "policy": {
+    "class_name": "StatefulRNNPolicy",
+    "parameters": {
+    }
+  }
+}
