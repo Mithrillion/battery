@@ -22,14 +22,9 @@ pytest
 scikit-learn
 scipy
 PyWavelets==1.4.1
-# --extra-index-url https://download.pytorch.org/whl/cpu
 torch==2.2.2
 torchaudio==2.2.2
 torchvision==0.17.2
-# torchsde==0.2.6
-# torchcde==0.2.5
-# torchdiffeq==0.2.3
 pytorch-lightning==2.2.1
-# signatory @ git+https://github.com/patrick-kidger/signatory.git
 plotly
 einops
