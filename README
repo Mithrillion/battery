@@ -3,3 +3,5 @@ then run `mamba env create -f env.yml` to create the environment (or env_aws.yml
 then run `conda activate battery_minimal_gpu` or `(battery_minimal_cpu)` to activate the environment
 test command:
 `python bot/tariff_evaluate.py --class_name=StatefulRNNPolicy --data bot/data/validation_data.csv --output_file bot/results/statefulrnn_validation_results.csv`
+
+note: docker functionalities probably do not work
