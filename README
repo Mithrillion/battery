@@ -5,3 +5,5 @@ test command:
 `python bot/tariff_evaluate.py --class_name=StatefulRNNPolicy --data bot/data/validation_data.csv --output_file bot/results/statefulrnn_validation_results.csv`
 
 note: docker functionalities probably do not work
+
+training script is `exp_scripts/run_UNIFIED_experiment.py` and model parametered can be modified in the script
