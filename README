@@ -7,3 +7,5 @@ test command:
 note: docker functionalities probably do not work
 
 training script is `exp_scripts/run_UNIFIED_experiment.py` and model parametered can be modified in the script
+the model is defined at `bot/policies/modules/stateful_rnn_model.py`
+the in-model battery environment is defined at `bot/policies/modules/battery.py`
