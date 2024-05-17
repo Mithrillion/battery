@@ -10,6 +10,7 @@ bot/data/checkpoints/*
 bot/data/helpers
 !bot/data/checkpoints/.gitkeep
 !bot/results/.gitkeep
+!bot/data/checkpoints/stateful_rnn_model-val-loss-epoch=59-with-val_loss=-158.274.ckpt
 
 .vscode
 
